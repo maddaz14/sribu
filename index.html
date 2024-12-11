@@ -1,59 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Will You Be My Girlfriend?</title>
-<style>
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f1f1f1;
-  }
-
-  .container {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
-  button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  button:hover {
-    background-color: #2980b9;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sribu Landing Page</title>
+    <link rel="stylesheet" href="sribu.css">
 </head>
 <body>
-<div class="container">
-  <h1>Will You Be My Girlfriend?</h1>
-  <button onclick="accept()">Yes</button>
-  <button onclick="reject()">No</button>
-</div>
-
-<script>
-  function accept() {
-    alert("Yay! I'm so happy! 😊");
-  }
-
-  function reject() {
-    alert("Oh no! I'm sad now. 😔");
-  }
-</script>
+    <header>
+        <div class="logo-tagline">
+            <img src="https://via.placeholder.com/150x50" alt="Sribu Logo">
+            <p>Tagline Anda di sini</p>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Bekerja dengan Desainer Grafis Berbakat secara Online</h1>
+            <h3>Dapatkan lebih banyak ide desain berkualitas dan ucapkan selamat tinggal pada pertemuan offline yang memakan waktu.</h3>
+        </section>
+        <section class="problem-reason">
+            <h2>Masalah</h2>
+            <p>Sulit menemukan desain terbaik melalui freelancer, studio/agen, atau desainer in-house.</p>
+            <h2>Alasan</h2>
+            <p>Pilihan ide kreatif yang terbatas, biaya tinggi, dan memakan waktu.</p>
+        </section>
+        <section class="comparison-chart">
+            <h2>Perbandingan</h2>
+            <p>Antara freelancer, desainer in-house, agen, dan Sribu. Anda dapat melihat perbedaannya di <a href="https://www.sribu.com">Sribu</a>.</p>
+        </section>
+        <section class="portfolio">
+            <h2>Portofolio</h2>
+            <p>Anda akan mendapatkan desain seperti ini saat bekerja dengan desainer berbakat secara online.</p>
+            <p><a href="https://www.sribu.com/id/portfolio" target="_blank">Lihat portofolio kami di sini</a>.</p>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonial</h2>
+            <p><a href="https://www.sribu.com/id/testimonials" target="_blank">Lihat testimonial pelanggan kami di sini</a>.</p>
+        </section>
+        <section class="cta">
+            <h2>Daftar untuk Panduan Lengkap</h2>
+            <form>
+                <label for="email">Masukkan alamat email Anda:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Kirim</button>
+            </form>
+            <p><small>PS: Kami tidak akan mengirimkan spam kepada Anda.</small></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Sribu.com. Semua hak cipta dilindungi.</p>
+    </footer>
 </body>
 </html>
