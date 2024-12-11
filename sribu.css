@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-tagline img {
+    max-width: 150px;
+}
+
+.logo-tagline p {
+    margin: 10px 0 0;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    color: #8B0000;
+}
+
+a {
+    color: #8B0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.cta form {
+    margin-top: 10px;
+}
+
+.cta input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #aa0000;
+}
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
